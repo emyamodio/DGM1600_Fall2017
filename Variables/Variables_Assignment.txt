@@ -1,0 +1,27 @@
+public class Classes : MonoBehavior {
+
+This is giving the script a box/factury in the which we will create
+
+    private int wateBottle = 25;
+
+here I defined the access modifier to private, set my type to ineger, bottlewater is the type of container and i put my value as equal sign. to finish I gave it a numerical value, the semicolon indicates the end of the function.
+
+    public float water = 5.20f;
+
+here the access modifier is pubblic the type is a float or a numerical value with decimals water is what is in this float and the f after the quantity of watr is to indicate is a float
+
+    string name = "Lance";
+
+here because I didn't specifie the access modifier it is set as defult to private, the type is a string whch is a word variable the word/sentice must be written in quotations
+
+Public class One {
+
+    This is a sub box/cathegory/divission in the factory, it defines a new type of specific of an object like the color of a phone 
+}
+
+
+
+
+
+
+}
