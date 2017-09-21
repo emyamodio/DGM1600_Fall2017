@@ -39,8 +39,9 @@ public class Math : MonoBehaviour {
 		print(valueOne + " / " + valueTwo + " = " + result);
 	}
 
+	}
 	// Update is called once per frame
 	//void Update () {
 		
 	//}
-}
+
