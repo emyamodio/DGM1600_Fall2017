@@ -16,7 +16,7 @@ public class Arrays : MonoBehaviour {
 	heros[4] = "Hawkman";
 	heros[5] = "Bat Girl";
 
-	print \(heros{0});	
+	print (heros[0]);	
 
 	}
 	
