@@ -117,6 +117,8 @@ GameObject:
   m_Component:
   - component: {fileID: 317657562}
   - component: {fileID: 317657561}
+  - component: {fileID: 317657563}
+  - component: {fileID: 317657564}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -130,7 +132,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 317657560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63888a797f041ae4cacdf004e8a415d1, type: 3}
   m_Name: 
@@ -155,6 +157,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &317657563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317657560}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1fdacd73b976d542a5372456356b12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  townCenter: bakery
+--- !u!114 &317657564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317657560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f0ddcbdf72cd04b9dca893ab811be8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottles: 100
 --- !u!1 &1759418114
 GameObject:
   m_ObjectHideFlags: 0
