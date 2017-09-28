@@ -59,38 +59,38 @@ public class Arrays2 : MonoBehaviour {
 }
 
 //EXAMPLE 3//
-public class Arrays3 : MonoBehaviour {
+// public class Arrays3 : MonoBehaviour {
 
-	public GameObject[] inventory = new GameObject[4];
+// 	public GameObject[] inventory = new GameObject[4];
 
 	
-	// Use this for initialization
-	void Start () {
-	inventory[0] = "Bazooka";
-	inventory[1] = "M-16";
-	inventory[2] = "Shotgun";	
-	inventory[3] = "Pistol";
+// 	// Use this for initialization
+// 	void Start () {
+// 	inventory[0] = "Bazooka";
+// 	inventory[1] = "M-16";
+// 	inventory[2] = "Shotgun";	
+// 	inventory[3] = "Pistol";
 	
-	}
-}
+// 	}
+// }
 
 //EXAMPLE 4//
-public class Arrays4 : MonoBehaviour {
+// public class Arrays4 : MonoBehaviour {
 
-	public int[] money = new int[6];
+// 	public int[] money = new int[6];
 
 	
-	// Use this for initialization
-	void Start () {
-	money[0] = "36";
-	money[1] = "40";
-	money[2] = "100";	
-	money[3] = "60";
-	money[4] = "25";
-	money[5] = "12";
+// 	// Use this for initialization
+// 	void Start () {
+// 	money[0] = "36";
+// 	money[1] = "40";
+// 	money[2] = "100";	
+// 	money[3] = "60";
+// 	money[4] = "25";
+// 	money[5] = "12";
 	
-	}
-}
+// 	}
+// }
 
 //EXAMPLE 5//
 public class Arrays5 : MonoBehaviour {
@@ -187,11 +187,11 @@ public class Arrays10 : MonoBehaviour {
 
 	
 	// Use this for initialization
-	void Start () {
-	marioGame[0] = "FindThePrincess";
-	marioGame[1] = "SurviveTheLevels";
-	marioGame[2] = "BeatTheBoss";	
-	marioGame[3] = "SaveThePrincess";
+	// void Start () {
+	// marioGame[0] = "FindThePrincess";
+	// marioGame[1] = "SurviveTheLevels";
+	// marioGame[2] = "BeatTheBoss";	
+	// marioGame[3] = "SaveThePrincess";
 	
-	}
+	// }
 }

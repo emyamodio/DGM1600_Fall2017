@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 317657561}
   - component: {fileID: 317657563}
   - component: {fileID: 317657564}
+  - component: {fileID: 317657565}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -175,12 +176,28 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 317657560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1f0ddcbdf72cd04b9dca893ab811be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bottles: 100
+--- !u!114 &317657565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317657560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fdd8b05b3b62647ab6397375dfc3cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luke: 
+  vader: 
+  leia: 1
+  darkSide: 
+  lightSide: 
 --- !u!1 &1759418114
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,7 +379,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1809317999}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9be42b48fd96c34488da9d69c900c4a, type: 3}
   m_Name: 
@@ -374,7 +391,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1809317999}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ac7bad725b5428418a5e4e367dae702, type: 3}
   m_Name: 
