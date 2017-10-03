@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 317657563}
   - component: {fileID: 317657564}
   - component: {fileID: 317657565}
+  - component: {fileID: 317657566}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -188,7 +189,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 317657560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38fdd8b05b3b62647ab6397375dfc3cf, type: 3}
   m_Name: 
@@ -198,6 +199,20 @@ MonoBehaviour:
   leia: 1
   darkSide: 
   lightSide: 
+  num1: 10
+  num2: 10.5
+--- !u!114 &317657566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317657560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ff8643183234648804fa5bc770f101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottles: 100
 --- !u!1 &1759418114
 GameObject:
   m_ObjectHideFlags: 0
