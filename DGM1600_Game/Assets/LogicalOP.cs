@@ -2,20 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//LogicalOperations allow a person to compare values; 
+//In a logical operation all (both) statements must be true or the code will not run
 public class LogicalOP : MonoBehaviour {
-	public string luke = "Jedi";
+	// public string luke = "Jedi";
 
-	public string vader = "Sith";
+	// public string vader = "Sith";
 
-	public bool leia = true;
+	// public bool leia = true;
 
-	public string darkSide = "Darth Maul";
+	// public string darkSide = "Darth Maul";
 
-	public string lightSide = "Obi Wan";
+	// public string lightSide = "Obi Wan";
 
-	public int num1 = 10;
+	// public int num1 = 10;
 
-	public float num2 = 10.5f;
+	// public float num2 = 10.5f;
+
+	public string redRoses = "Love";
+
+	public string blackRoses = "Death";
+
 	// Use this for initialization
 	void Start () {
 		// if(luke == "Jedi" && vader == "Nanny"){
@@ -50,14 +57,27 @@ public class LogicalOP : MonoBehaviour {
 		// 	print("Not the younglings!");
 		// }
 
-		if(num1 == 10 && num2 == 10.5){
-			print("Yes!");
+		// if(num1 == 10 && num2 == 10.5){
+		// 	print("Yes!");
+		// }
+		// else if(num1 == 10 && num2 == 10){
+		// 	print("NOOOOOO!");
+		// }
+		// else{
+		// 	print("Utinni!");
+		// }
+
+		if(redRoses == "Love" && blackRoses == "Funeral"){
+			print("We are having a loving funeral");
+		}	
+		else if (redRoses == "Frendship" && blackRoses == "Death"){
+			print ("It'a a deadly frenship");
 		}
-		else if(num1 == 10 && num2 == 10){
-			print("NOOOOOO!");
+		else if(redRoses == "Love" && blackRoses == "Death"){
+			print("The tragedy of Romeo of Juliet");
 		}
 		else{
-			print("Utinni!");
+			print("The End!");
 		}
 	}
 	
