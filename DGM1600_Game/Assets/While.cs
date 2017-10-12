@@ -69,9 +69,9 @@ public class While : MonoBehaviour {
 			print(" trees she hit on her way down");
 		}
 	
-	// Update is called once per frame
-	void Update() {
+	// // Update is called once per frame
+	// void Update() {
 		
-	}
+	// }
 }
 }
